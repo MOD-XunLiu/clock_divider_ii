@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Mon Aug 12 14:41:55 2024
+# Process ID: 5616
+# Current directory: C:/Users/17877/Vivado_Projects/project_clk_div_scale_auto/project_clk_div_scale_auto.runs/synth_1
+# Command line: vivado.exe -log clk_div_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source clk_div_wrapper.tcl
+# Log file: C:/Users/17877/Vivado_Projects/project_clk_div_scale_auto/project_clk_div_scale_auto.runs/synth_1/clk_div_wrapper.vds
+# Journal file: C:/Users/17877/Vivado_Projects/project_clk_div_scale_auto/project_clk_div_scale_auto.runs/synth_1\vivado.jou
+# Running On: ZenXL, OS: Windows, CPU Frequency: 3194 MHz, CPU Physical cores: 16, Host memory: 16536 MB
+#-----------------------------------------------------------
+source clk_div_wrapper.tcl -notrace

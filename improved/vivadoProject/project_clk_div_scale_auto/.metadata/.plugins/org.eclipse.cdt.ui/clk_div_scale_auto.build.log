@@ -1,0 +1,30 @@
+09:42:19 **** Build of configuration Debug for project clk_div_scale_auto ****
+make all 
+make --no-print-directory pre-build
+a9-linaro-pre-build-step
+' '
+make --no-print-directory main-build
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/17877/Vivado_Projects/project_clk_div_scale_auto/clk_div_wrapper_scale_auto/export/clk_div_wrapper_scale_auto/sw/clk_div_wrapper_scale_auto/standalone_ps7_cortexa9_0/bspinclude/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/17877/Vivado_Projects/project_clk_div_scale_auto/clk_div_wrapper_scale_auto/export/clk_div_wrapper_scale_auto/sw/clk_div_wrapper_scale_auto/standalone_ps7_cortexa9_0/bspinclude/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: clk_div_scale_auto.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LC:/Users/17877/Vivado_Projects/project_clk_div_scale_auto/clk_div_wrapper_scale_auto/export/clk_div_wrapper_scale_auto/sw/clk_div_wrapper_scale_auto/standalone_ps7_cortexa9_0/bsplib/lib -o "clk_div_scale_auto.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: clk_div_scale_auto.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size clk_div_scale_auto.elf  |tee "clk_div_scale_auto.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  76667	   2560	  22688	 101915	  18e1b	clk_div_scale_auto.elf
+'Finished building: clk_div_scale_auto.elf.size'
+' '
+
+09:42:20 Build Finished (took 1s.162ms)
+

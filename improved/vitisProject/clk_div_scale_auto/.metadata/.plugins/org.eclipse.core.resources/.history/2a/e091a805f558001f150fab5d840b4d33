@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="clk_div" location="C:/Users/17877/workspace/clk_div_scale_auto/clk_div" platform="C:/Users/17877/workspace/clk_div_scale_auto/clk_div_wrapper/export/clk_div_wrapper/clk_div_wrapper.xpfm" platformUID="xilinx:microzed_7020::0.0(custom)" systemProject="clk_div_system" sysConfig="clk_div_wrapper" runtime="C/C++" cpu="standalone_domain" cpuInstance="ps7_cortexa9_0" os="standalone" mssSignature="b48117aeceed54a9257ca675bab6f0d0">
+  <configuration name="Debug" id="xilinx.gnu.armv7.exe.debug.2072384958">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.armv7.exe.release.426832487" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="hello_world"/>
+</sdkproject:SdkProject>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;clk_div_scale_auto&apos;" deleteContents="true" description="Delete resource &apos;clk_div_scale_auto&apos;" element1="/clk_div_scale_auto" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1720630346707"/>&#x0A;<refactoring comment="Delete resource &apos;clk_div_system&apos;" deleteContents="true" description="Delete resource &apos;clk_div_system&apos;" element1="/clk_div_system" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1720646071810"/>
+</session>

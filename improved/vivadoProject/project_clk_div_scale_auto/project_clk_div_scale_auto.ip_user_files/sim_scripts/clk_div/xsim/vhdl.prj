@@ -1,0 +1,8 @@
+vhdl xil_defaultlib  \
+"../../../bd/clk_div/ip/clk_div_clk_div_top_0_0/sim/clk_div_clk_div_top_0_0.vhd" \
+"../../../bd/clk_div/ip/clk_div_axi_gpio_0_0/sim/clk_div_axi_gpio_0_0.vhd" \
+"../../../bd/clk_div/ip/clk_div_rst_ps7_0_1M_0/sim/clk_div_rst_ps7_0_1M_0.vhd" \
+"../../../bd/clk_div/sim/clk_div.vhd" \
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,8 @@
+verilog xil_defaultlib --include "C:/Xilinx/Vivado/2023.1/data/xilinx_vip/include" --include "../../../../project_clk_div_scale_auto.gen/sources_1/bd/clk_div/ipshared/ec67/hdl" --include "../../../../project_clk_div_scale_auto.gen/sources_1/bd/clk_div/ipshared/aed8/hdl" \
+"../../../bd/clk_div/ip/clk_div_processing_system7_0_0/sim/clk_div_processing_system7_0_0.v" \
+"../../../bd/clk_div/ip/clk_div_auto_pc_0/sim/clk_div_auto_pc_0.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
